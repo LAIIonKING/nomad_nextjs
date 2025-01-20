@@ -7,7 +7,7 @@ export default function Navigation() {
   const path = usePathname();
   return (
     <nav className={styles.nav}>
-      <ul>
+      {/* <ul>
         <li>
           <Link href="/">Home</Link>
           {path === '/' ? '🔥' : ''}
@@ -16,7 +16,7 @@ export default function Navigation() {
           <Link href="/about-us">About Us</Link>
           {path === '/about-us' ? '🔥' : ''}
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }
