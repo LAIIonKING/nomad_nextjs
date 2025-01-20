@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from '../styles/navigation.module.css';
 
-export default function TestNav() {
+export default function Nav() {
   const path = usePathname();
   return (
     <nav className={styles.nav}>
