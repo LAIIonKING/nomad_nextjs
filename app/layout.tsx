@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import Navigation from './components/Navigation';
+import Navigation from './components/navigation';
+import './styles/global.css';
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ paddingTop: '100px' }}>
         <Navigation />
         {children}
       </body>
